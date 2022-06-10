@@ -1,0 +1,19 @@
+.block-3{
+    @include display();
+    background-color: $div-color-gris-2;
+    color: $color-letra;
+
+    .element-3{
+        width: 70%;
+        margin: $margin;
+    }
+
+    .element-3-modifier{
+        @include margenes();
+        
+    }
+
+    .element-3-modifier-1{
+        @include margenesmodifier();
+    }
+}

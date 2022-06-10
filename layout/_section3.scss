@@ -1,0 +1,20 @@
+.block-4{
+    background-color: $div-color-blanco;
+    color: $color-letra-gris;
+    @include display();
+    
+    
+    
+    .element-4{
+        @include orden();
+
+    }
+    .element-4-modifier{
+        @include margenes();
+        
+    }
+
+    .element-4-modifier-1{
+        @include margenesmodifier();
+    }
+}

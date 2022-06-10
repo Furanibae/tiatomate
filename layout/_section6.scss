@@ -1,0 +1,15 @@
+.block-8{
+    @include nosotros();
+    margin-top:5%;
+
+    .element-8{
+        padding: 1%;
+        margin-top: 3%;
+        padding: .75rem 7%;
+        border-radius: 10rem;
+        font-size: 25px;
+        font-weight:bold;
+        letter-spacing: 0.15rem;
+        color: $color-letra-gris;
+    }
+}

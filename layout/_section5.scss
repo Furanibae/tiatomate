@@ -1,0 +1,29 @@
+.block-6{
+    color: $color-letra-gris;
+    @include display();
+    
+    
+    .element-6{
+        @include fotos();
+        
+    }
+    .element-6-modifier{
+       @include h3();
+    }
+
+    .element-6-modifier-1{
+       width: $widthp;
+    }
+
+    .element-7{
+       @include fotos();
+    }
+
+    .element-7-modifier{
+        @include h3();
+    }
+
+    .element-7-modifier-1{
+        width: $widthp;
+    }
+}

@@ -1,0 +1,36 @@
+@mixin display (){
+    display:flex;
+    flex-direction: column;
+    align-items: $aligncenter;
+}
+
+@mixin orden(){
+    width: 70%;
+    margin: $margin;
+}
+
+@mixin margenes(){
+    margin-bottom: $margin-bot;
+}
+
+@mixin margenesmodifier(){
+    margin-bottom: $margin-bot;
+    width: 50%;
+}
+@mixin fotos(){
+    width: $widthfotos;
+    margin:$margin2;
+}
+
+@mixin h3(){
+    font-size: 30px;
+    margin-bottom: $margin-bot;
+}
+
+@mixin nosotros(){
+    background-color: $div-color-rojo;
+    padding: 7%;
+    font-size: 30px;
+    color: $color-letra;
+    text-align: center;
+}

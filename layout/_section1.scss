@@ -1,0 +1,15 @@
+.block-2{
+    @include display ();
+    background-color:$div-color-rojo;
+    color: $h2-color;
+    padding: 15%;
+
+    h1{
+        font-size: 50px;
+    }
+
+    .element-2{
+        font-weight: 200;
+    }
+
+}
